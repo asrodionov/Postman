@@ -16,7 +16,7 @@ class PostmanTest {
                 // Проверки
                 .then()
                     .statusCode(200)
-                    .assertThat().body("data", equalTo("some date"))
+                    .assertThat().body("data", equalTo("some data"))
         ;
     }
 }
